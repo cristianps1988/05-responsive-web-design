@@ -1,0 +1,8 @@
+img{
+    max-width: 100%;
+    margin: 0;
+}
+
+/* se debe poner la imagen dentro de un div
+con el max-width no crece mas del contenido establecido para el div padre
+con el margin 0 se elimina un peque;o espacio que queda */

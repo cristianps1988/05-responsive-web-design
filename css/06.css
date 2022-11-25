@@ -1,0 +1,8 @@
+.contenedor-responsive{
+    background-color: white;
+    height: 40rem;
+    /* width: 90%;
+    max-width: 100rem; */
+    width: min(90%, 100rem); /*misma funcion que las dos lineas de arriba */
+    margin: 0 auto;
+}

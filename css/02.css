@@ -1,0 +1,29 @@
+/* mobile first */
+.oferta{
+    background-color: #00446e;
+    padding: 2rem;
+    max-width: 30rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.precio{
+    font-size: 4rem;
+    margin: 0;
+}
+
+@media ( min-width: 600px){
+    .oferta{
+        max-width: 50rem;
+    }
+    .precio{
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 1000px){
+    .oferta{
+        max-width: 80rem;
+    }
+
+}

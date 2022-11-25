@@ -1,0 +1,28 @@
+/* Media query entre 2 tama;os o mas */
+
+.oferta{
+    background-color: #00446e;
+    padding: 2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.precio{
+    font-size: 6rem;
+    margin: 0;
+}
+
+/* entre 2 mediaquery */
+@media (min-width: 600px) and (max-width: 1000px){
+    .oferta{
+        background-color: red;
+    }
+}
+
+/* entre 3 media query */
+@media (min-width: 600px) and (max-width: 1000px), (min-width: 1200px){
+    .oferta{
+        background-color: red;
+    }
+}

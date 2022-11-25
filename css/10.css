@@ -1,0 +1,27 @@
+/* este codigo se debe escribir en el html 
+el img siempre tiene que ir al final porque es el que muestra los demas, sin ese no se pinta en pantalla asi no sea ese jpg el que queramos mostrar
+*/
+/*
+
+        <picture>
+            <source srcset="img/imagen.avif" type="image/avif" />
+            <source srcset="img/imagen.webp" type="image/webp" />
+            <img loading="lazy" src="img/imagen.jpg" alt="imagen">
+        </picture>
+
+*/
+
+/* Snippet para escribir la carga de imagenes en html
+"imagenes" :{
+		"prefix": "im",
+		"body":[
+			"<picture>",
+				"\t<source srcset=\"$1.avif\" type=\"image.avif\" >",
+				"\t<source srcset=\"$2.webp\" type=\"image.webp\" >",
+				"\t<img loading=\"lazy\" src=\"$3.jpg\" alt=\"imagen\" >",
+			"<picture/>"
+		]
+	}
+
+    */
+

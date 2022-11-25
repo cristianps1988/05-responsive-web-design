@@ -1,0 +1,25 @@
+/* como crear un snippet 
+
+1. comand + shift + p
+2. buscar: user snippets
+3. buscar css
+4. configurarlo de la siguiente manera, ejemplo para media query
+
+"media query":{
+    "prefix": "mq",
+    "body":[
+        "@media (min-width: $1){\n\t$2\n}"
+    ]
+}
+
+- el signo dolar y el numero, me da la posicion del cursor
+- \n es el salto de linea
+- \t es un tab
+
+para llamarlo en css, debo escribir mq y tab
+
+*/
+
+@media (min-width: ){
+    
+}
